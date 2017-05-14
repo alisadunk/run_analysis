@@ -89,4 +89,3 @@ vartrainxtestx <- names(trainxtestx)
 for(i in 1:561){
         names(tidydatasum)[names(tidydatasum)==vartrainxtestx[i]]=varnames[i]
 }
-rename(tidydatasum, NA = fff, NA = gffg)
