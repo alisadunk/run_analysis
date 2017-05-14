@@ -1,10 +1,9 @@
-Feature Selection 
-=================
+## Feature Selection 
 
 There 2 new variables added to both tidy data sets:
 
-- subject (number of subjects: 1 to 30)
-- NameActivity (descriptive activity names: 1 WALKING
+* subject (number of subjects: 1 to 30)
+* NameActivity (descriptive activity names: 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
 4 SITTING
