@@ -1,6 +1,5 @@
-##COURSERA - WEEK 4
 
-### run_analysis Script
+## run_analysis Script
 
 * Question 1 - Merge datasets: trainx & testx
 * Question 2 - Extracts measurements: mean, standard deviation for each measurement
