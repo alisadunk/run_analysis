@@ -8,7 +8,7 @@
 * #Question 5 - Independent tidy data set and use of dplyr library
 
 
-###The dataset includes the following files:
+## The dataset includes the following files:
 
 * 'README.txt'
 
