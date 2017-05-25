@@ -89,3 +89,10 @@ vartrainxtestx <- names(trainxtestx)
 for(i in 1:561){
         names(tidydatasum)[names(tidydatasum)==vartrainxtestx[i]]=varnames[i]
 }
+
+#Subset colomns with 'mean' and 'std'
+colmean <- grep('mean', names(tidydatasum))
+colstd <- grep('std', names(tidydatasum))
+colnameactivity <- grep('NameActivity', names(tidydatasum))
+colsubject <- grep('subject', names(tidydatasum))
+tidydatafinal<- tidydatasum[, c(colmean, colstd, colnameactivity, colsubject)]
